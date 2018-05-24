@@ -89,7 +89,7 @@ public class Main {
 				}
 				
 			}
-		temp++;
+			temp++;
 		}while (!input.equals("exit"));
 
 	}
