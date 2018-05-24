@@ -19,6 +19,7 @@ public class Main {
 		fillStudents(s0, s1, s2, s3, s4);
 		
 		while(!input.toUpperCase().equals("EXIT")) {
+			validCMD = true;
 			System.out.print("CONSOLE>");
 			input = Scanner.nextLine();
 			if (input.toUpperCase().equals("HELP")) { // HELP Command
